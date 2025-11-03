@@ -5,10 +5,11 @@
   
     body{
     background-color: rgba(244, 208, 78, 1);
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    margin-top: 100px;
     }
 
     .main{
@@ -21,3 +22,12 @@
     padding: 16px;
     box-shadow: 8px 8px black;
     }
+.card{
+    box-shadow: 8px 8px 0 0 ;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
